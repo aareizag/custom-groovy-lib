@@ -4,6 +4,7 @@ class CustomLibrary {
 
     def testingHello() {
         System.out.println("This is a testing text.")
+        echo "testing"
     }
 
     /**
