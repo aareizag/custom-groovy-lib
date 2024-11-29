@@ -3,7 +3,7 @@ package org.testing
 class CustomLibrary {
 
     def testingHello() {
-        println "This is a testing text."
+        System.out.println("This is a testing text.")
     }
 
     /**
