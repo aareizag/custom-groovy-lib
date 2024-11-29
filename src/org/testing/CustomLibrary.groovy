@@ -10,6 +10,10 @@ class CustomLibrary {
         logger.info("Hello! This message is logged via Jenkins' logger.")
     }
 
+    def sayHello(steps) {
+        steps.echo "Hello! This message will appear in the Jenkins console logs."
+    }
+
     /**
      * A simple method to log a greeting message.
      *
