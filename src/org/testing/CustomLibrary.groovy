@@ -1,10 +1,13 @@
 package org.testing
 
+import java.util.logging.Logger
+
 class CustomLibrary {
+    private static final Logger logger = Logger.getLogger(CustomLibrary.class.name)
 
     def testingHello() {
         System.out.println("This is a testing text.")
-        echo "testing"
+        logger.info("Hello! This message is logged via Jenkins' logger.")
     }
 
     /**
