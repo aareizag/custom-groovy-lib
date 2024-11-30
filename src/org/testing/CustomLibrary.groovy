@@ -20,7 +20,7 @@ class CustomLibrary {
      * @param name The name to include in the greeting.
      * @return The greeting message as a String.
      */
-    def sayHello(String name) {
+    def sayHello2(String name) {
         def message = "Hello, ${name}! Welcome to the Jenkins pipeline."
         println(message)
         return message
